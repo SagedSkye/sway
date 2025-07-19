@@ -1,0 +1,26 @@
+[wofi]
+  extra_args = "--allow-markup --columns=1 --hide-scroll"
+
+[menu.shutdown]
+  title = "Shutdown"
+
+[menu.reboot]
+  title = "Reboot"
+
+[menu.suspend]
+  title = "Suspend"
+  enabled = "true"
+
+[menu.hibernate]
+  title = "Hibernar"
+  enabled = "false"
+
+[menu.logout]
+  title = "Logout"
+  cmd = "swaymsg exit"
+
+[menu.ls]
+  title = "Listar directorio"
+  cmd = "ls -l --color"
+  icon = "L"
+  enabled = "false"
