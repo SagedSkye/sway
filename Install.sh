@@ -12,12 +12,13 @@ cd ..
 #####
 # Default Packages
 #####
-paru -S --noconfirm nemo nautilus wofi kitty vscode all-repository-fonts maplemono-ttf pamixer nwg-look papirus-folders papirus-icon-theme hyfetch adw-gtk-theme wofi-power-menu power-profiles-daemon ufw
+paru -S --noconfirm nemo nautilus wofi kitty vscode all-repository-fonts maplemono-ttf pamixer nwg-look papirus-folders papirus-icon-theme hyfetch adw-gtk-theme wofi-power-menu power-profiles-daemon ufw xdg-user-dirs
 
 #####
-# Refreshing Fonts
+# Refreshing Fonts and Folders
 #####
 fc-cache -f -v
+xdf-user-dirs-update
 
 #####
 # Folder Icons Setup
